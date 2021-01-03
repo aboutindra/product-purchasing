@@ -63,5 +63,6 @@ Project is created with:
 ## Authors
 
 * **Andre Febrianto** - *Initial work* - [andrefebrianto](https://gitlab.playcourt.id/andrefebrianto)
+* **Muhammad Indrawan** - *Developer* - [aboutindra](https://gitlab.playcourt.id/aboutindra)
 
 See also the list of [contributors](https://gitlab.playcourt.id/groups/amoeba-inpoin/-/group_members) who participated in this project.
