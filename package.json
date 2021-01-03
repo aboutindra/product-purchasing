@@ -1,0 +1,38 @@
+{
+  "name": "inpoin-product-purchasing-service",
+  "version": "1.0.0",
+  "description": "Product purchasing service",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "set NODE_ENV=test&&nyc --reporter=html --reporter=text --reporter=lcov mocha \"test/**/*_test.js\" --timeout 5000 --recursive --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.playcourt.id/amoeba-inpoin/inpoin-product-purchasing-service.git"
+  },
+  "author": "andrefs",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "axios-curlirize": "^1.3.7",
+    "config": "^3.3.1",
+    "crypto-js": "^4.0.0",
+    "dotenv": "^8.2.0",
+    "elastic-apm-node": "^3.8.0",
+    "elasticsearch": "^16.7.1",
+    "kafka-node": "^5.0.0",
+    "mongoose": "^5.9.24",
+    "raven": "^2.6.4",
+    "winston": "^3.3.3",
+    "winston-elasticsearch": "^0.12.2",
+    "winston-format-debug": "^1.0.3",
+    "winston-logstash": "^0.4.0"
+  },
+  "devDependencies": {
+    "mocha": "^8.2.1",
+    "nyc": "^15.1.0",
+    "sinon": "^9.0.2"
+  }
+}
